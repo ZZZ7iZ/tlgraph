@@ -21,9 +21,9 @@ if ENVIRONMENT:
         MUST_JOIN = MUST_JOIN.replace("@", "")
 else:
     # Fill the Values
-    API_ID = 0
-    API_HASH = ""
+    API_ID = "16228908"
+    API_HASH = "1e0ebcbec6fb07e5064f54797e0cadb5"
     BOT_TOKEN = ""
-    DATABASE_URL = ""
-    MUST_JOIN = ""
-    OWNER_ID = 0
+    DATABASE_URL = "mongodb+srv://ersh:antwai@cluster0.pforz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+    MUST_JOIN = "ZZZ7iZ"
+    OWNER_ID = "5012406813"

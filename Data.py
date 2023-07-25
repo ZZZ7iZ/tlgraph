@@ -3,15 +3,14 @@ from pyrogram.types import InlineKeyboardButton
 
 class Data:
     # Start Message
-    START = """
- أهلا بك في بوت أستخراج روابط الميديا 🖤.
-    """
+    START = """**
+ أهلا بك في بوت أستخراج روابط الميديا 🖤 ** """
 
     # Help Message
     HELP = """
 **اقرأ أدناه لتعرف كيف تستعملني.**
 
-راجع "أنواع الوسائط المدعومة" بالنقر فوق الزر ذي الصلة أدناه.
+راجع أنواع الوسائط المدعومة" بالنقر فوق الزر ذي الصلة أدناه.
 
 **كيف تستعملني هنا؟**
 
@@ -22,9 +21,9 @@ class Data:
     ABOUT = """
 **About This Bot** 
 
-السورس : @YY8GG
+السورس : @ZZZ7iZ
 
-المطور : @KU_KX
+المطور : @IIIlIIv
     """
 
     SUPPORTED_MEDIA_TYPES = """
@@ -42,7 +41,7 @@ class Data:
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton("حالة البوت والمزيد من الروبوتات", url="https://t.me/YY8GGX")],
+        [InlineKeyboardButton("حالة البوت والمزيد من الروبوتات", url="https://t.me/ZZZ7iZ")],
         [InlineKeyboardButton("أنواع الوسائط المدعومة", callback_data="supported_media_types")],
         [InlineKeyboardButton("أغلاق", callback_data="close")],
         [InlineKeyboardButton(text="رجوع", callback_data="home")],
@@ -51,7 +50,7 @@ class Data:
     # Rest Buttons
     buttons = [
         [
-            InlineKeyboardButton("حالة البوت والمزيد من الروبوتات", url="https://t.me/YY8GGX")
+            InlineKeyboardButton("حالة البوت والمزيد من الروبوتات", url="https://t.me/ZZZ7iZ")
         ],
         [InlineKeyboardButton("أنواع الوسائط المدعومة", callback_data="supported_media_types")],
         [
@@ -63,7 +62,7 @@ class Data:
 
     # Supported Media Buttons
     supported_media_buttons = [
-        [InlineKeyboardButton("حالة البوت والمزيد من الروبوتات", url="https://t.me/YY8GGX")],
+        [InlineKeyboardButton("حالة البوت والمزيد من الروبوتات", url="https://t.me/ZZZ7iZ")],
         [InlineKeyboardButton("أغلاق", callback_data="close")],
         [InlineKeyboardButton(text="رجوع", callback_data="home")]
     ]
